@@ -1,0 +1,87 @@
+/*header*/
+.header {
+    color: white;      
+    background-color: #1f2937;
+    top: 0;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    vertical-align:top;
+}
+li {
+    display: inline-block;
+    color: #E5E7EB;
+}
+.headerlogo {
+    font-size: 24px; 
+    color: #F9FAF8; 
+}
+/* 2nd part*/
+.container {
+    background-color: #1f2937;
+    padding: 10%;
+    gap: 1em;
+    display: flex;
+}
+.button1 {
+    background-color: #3882F6; 
+    color: rgb(5, 5, 5);
+}
+.containerright {
+    background-color: grey;
+    color: #F9FAF8;
+    text-align: center; 
+    width: 500px;
+    height: 300px;
+}
+/*3rd part*/
+.boxes {
+    background-color: white;
+    gap: 10%;
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+}
+.boxset{
+    border-color:white;
+    border-style: solid;
+}
+.box {
+    border-color: #3882F6;
+    border-style: solid;
+    align-content: space-between;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+/*4th part*/
+.container3 {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    padding: 10%;
+}
+/*last part*/
+.container4{
+    background-color: white;
+
+}
+.signbox {
+    background-color:#3882F6;
+    color: white;
+    height:100px;
+    width: 500px;
+    border-radius: 25px;
+    margin: auto;
+}
+.button2 {
+    background-color: #3882F6; 
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+}
